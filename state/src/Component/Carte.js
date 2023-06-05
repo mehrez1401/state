@@ -1,4 +1,6 @@
 import React from 'react'
+{/*importation du composant boostrap */}
+
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -8,6 +10,8 @@ const Carte = (props) => {
   const desc=props.desc
   return (
     <div>
+         {/* insertion de notre image a l'aide du Card.Img  */}
+
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={link} />
       <Card.Body>
