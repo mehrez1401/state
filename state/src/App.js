@@ -15,6 +15,8 @@ export default class App extends Component {
   render() {
     return (
       <div >
+              {/* création d'un button Show/Hide  */}
+
             <button onClick={() =>this.toggle()}>Show/Hide</button>
            { this.state.show && <ContainerSyst/> }
 
